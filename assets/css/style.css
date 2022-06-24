@@ -261,13 +261,13 @@ i.bi.bi-check-circle {
   z-index: 999;
 }
 .navbar-mobile .mobile-nav-toggle {
-  position: absolute;
+  position: fixed;
   top: 15px;
   right: 15px;
 }
 .navbar-mobile ul {
   display: block;
-  position: absolute;
+  position:fixed;
   top: 55px;
   right: 15px;
   bottom: 15px;
