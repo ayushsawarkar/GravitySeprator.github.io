@@ -593,10 +593,6 @@ tbody, td, tfoot, th, thead, tr {
   }
 
 }
-.row
-{
-  overflow-y:scroll ;
-}
 .newButton a:nth-child(2)::before,
 .newButton a:nth-child(2)::after
 {
@@ -1683,3 +1679,67 @@ section .footer{
     width: 250px;
   }
 } 
+
+
+
+
+
+
+
+.services{
+  box-sizing: border-box;
+}
+.img-container {
+  text-align: center;
+  display: block;
+}
+
+.services {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.services h1 {
+  font-size: 50px;
+  word-break: break-all;
+
+}
+
+.services .row {
+  margin: auto;
+}
+
+.services .row,
+.services .row> .services.column {
+  padding: 8px;
+}
+
+.services .column {
+  float: left;
+  width: 20%;
+}
+
+.services .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.services .content {
+  
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .services .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .services .column {
+    width: 100%;
+  }
+}
