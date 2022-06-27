@@ -30,6 +30,8 @@ checkBtn.addEventListener("click", e =>{
   if(inputVal == captcha.innerText){ //if captcha matched
     statusTxt.style.color = "#4db2ec";
     statusTxt.innerText = "Verified.";
+    $('#submitButton1').prop('disabled', false);
+
     // setTimeout(()=>{ //calling removeContent & getCaptcha after 2 seconds
     //   removeContent();
     //   getCaptcha();
@@ -37,6 +39,8 @@ checkBtn.addEventListener("click", e =>{
   }else{
     statusTxt.style.color = "#ff0000";
     statusTxt.innerText = "Captcha not matched. Please try again!";
+    $('#submitButton1').prop('disabled', true);
+
   }
 });
 
