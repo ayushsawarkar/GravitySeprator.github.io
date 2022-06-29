@@ -1512,10 +1512,7 @@ section .footer{
     margin-right: 3px;
     margin-bottom: 5px;
 }
-.footer-center
-    {
-        display: inline-flex;
-    }
+
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
@@ -1536,14 +1533,24 @@ section .footer{
     .footer-distributed .footer-center i{
         margin-left: 0;
     }
+    .footer-left-center
+    {
+      display: block;
+    }
+    .footer-left-center
+    
 
 }
 
 
+@media (min-width: 880px)
+{
+  .footer-left-center
+    {
+      display: flex;
+    }
 
-
-
-
+}
 
 .wrapper{
 
@@ -1766,3 +1773,4 @@ section .footer{
   color: #258BD6;
   font-weight: 600;
 }
+
