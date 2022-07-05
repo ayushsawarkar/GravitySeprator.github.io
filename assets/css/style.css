@@ -1,3 +1,9 @@
+/**
+* Template Name: Bethany - v4.7.0
+* Template URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
 .{
   zoom: 100%;
@@ -1502,7 +1508,7 @@ section .footer{
     width: 35px;
     height: 35px;
     cursor: pointer;
-    /* background-color:  #33383b; */
+    background-color:  #33383b;
     border-radius: 2px;
 
     font-size: 20px;
@@ -1510,7 +1516,7 @@ section .footer{
     text-align: center;
     line-height: 35px;
 
-    margin-right: 22px;
+    margin-right: 10px;
     margin-bottom: 5px;
 }
 
@@ -1544,7 +1550,7 @@ section .footer{
 }
 
 
-@media (min-width: 880px)
+@media (min-width: 1100px)
 {
   .footer-left-center
     {
