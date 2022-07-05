@@ -1,11 +1,7 @@
-/**
-* Template Name: Bethany - v4.7.0
-* Template URL: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-
+.{
+  zoom: 100%;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -96,12 +92,12 @@ i.bi.bi-check-circle {
   top: 0;
 }
 #header .logo {
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 16px 30px 12px 30px;
   background: #258BD6;
 }
 #header .logo h1 {
-  font-size: 26px;
+  font-size: 22px;
   padding: 0;
   line-height: 1;
   font-weight: 700;
@@ -272,6 +268,10 @@ i.bi.bi-check-circle {
   }
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
+  }
+  .navbar a
+  {
+    padding-left: 10px;
   }
 }
 
@@ -473,6 +473,7 @@ i.bi.bi-check-circle {
 }
 #hero .container {
   padding-top: 80px;
+  margin-left: 50px ;
 }
 #hero:before {
   content: "";
@@ -806,7 +807,7 @@ section {
   margin: 0 0 3px 0;
 }
 .why-us .icon-boxes .icon-box p {
-  font-size: 15px;
+  font-size: 20px;
   color: #848484;
 }
 .why-us .icon-boxes .icon-box:hover {
@@ -1422,8 +1423,8 @@ section .footer{
     background-color:  #33383b;
     color: #ffffff;
     font-size: 25px;
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
     text-align: center;
     line-height: 42px;
@@ -1492,16 +1493,16 @@ section .footer{
     margin-bottom: 20px;
 }
 
-.footer-distributed .footer-icons{
+/* .footer-distributed .footer-icons{
     margin-top: 25px;
-}
+} */
 
 .footer-distributed .footer-icons a{
     display: inline-block;
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color:  #33383b;
+    /* background-color:  #33383b; */
     border-radius: 2px;
 
     font-size: 20px;
@@ -1509,7 +1510,7 @@ section .footer{
     text-align: center;
     line-height: 35px;
 
-    margin-right: 3px;
+    margin-right: 22px;
     margin-bottom: 5px;
 }
 
